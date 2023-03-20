@@ -24,7 +24,6 @@ export class GithubService {
           date: new Date(data[key].commit.author.date).toLocaleDateString('en-US')
         })
       }
-      console.log(commits)
       return commits;
     } catch (error) {
       console.error(error)

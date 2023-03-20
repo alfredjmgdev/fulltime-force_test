@@ -22,7 +22,7 @@ function Table() {
         <div className="space-y-2">
           <div className="text-gray-200">FulltimeForce Test (Github commits History!)</div>
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mx-auto block"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-12 rounded mt-4 mx-auto block"
             onClick={fetchData}
           >
             Refresh
